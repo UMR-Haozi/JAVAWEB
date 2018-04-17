@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="UTF-8">
+	<title>学生在线[]~(￣▽￣)~* 考试系统！</title>
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+	<div class="body"></div>
+	<div class="mask"></div>
+	<div class="container">
+		<div class="main-button">
+			<a class="button anim" href="login.jsp">点击登录系统</a>
+		</div>
+		<div class = "left-text">
+			因<br/><br/>
+			为<br/><br/>
+			优<br/><br/>
+			秀<br/><br/>
+		</div>
+		<div class = "right-text">
+			所<br/><br/>
+			以<br/><br/>
+			卓<br/><br/>
+			越<br/><br/>
+		</div>
+	</div>
+
+<script>
+$(function() {
+	//默认不显示按钮
+	$(".main-button").hide();
+	$(".mask").animate({opacity: "hide"}, 3000, function() {
+		//黑色渐变到透明，渐变显示完成后显示按钮
+		//弹跳效果
+		$(".button").addClass("bounce");
+		$(".main-button").animate({opacity: "show"}, 300);
+	});
+});
+</script>
+</body>
+</html>

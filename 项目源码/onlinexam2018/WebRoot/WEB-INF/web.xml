@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>onlinexam2018</display-name>
+
+
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StuClassDelServelet</servlet-name>
+    <servlet-class>com.hp.onlinexam.servlet.admin.StuClassDelServelet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TeacherQueryServlet</servlet-name>
+    <servlet-class>com.hp.onlinexam.servlet.teacher.TeacherQueryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TeacherAddServlet</servlet-name>
+    <servlet-class>com.hp.onlinexam.servlet.teacher.TeacherAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TeacherModifyServlet</servlet-name>
+    <servlet-class>com.hp.onlinexam.servlet.teacher.TeacherModifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TeacherDelServlet</servlet-name>
+    <servlet-class>com.hp.onlinexam.servlet.teacher.TeacherDelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CourseQueryServlet</servlet-name>
+    <servlet-class>com.hp.onlinexam.servlet.admin.CourseQueryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CourseAddServlet</servlet-name>
+    <servlet-class>com.hp.onlinexam.servlet.admin.CourseAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CourseModifyServlet</servlet-name>
+    <servlet-class>com.hp.onlinexam.servlet.admin.CourseModifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CourseDelServlet</servlet-name>
+    <servlet-class>com.hp.onlinexam.servlet.admin.CourseDelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentQueryServlet</servlet-name>
+    <servlet-class>com.hp.onlinexam.servlet.admin.StudentQueryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentAddServlet</servlet-name>
+    <servlet-class>com.hp.onlinexam.servlet.admin.StudentAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentDelServlet</servlet-name>
+    <servlet-class>com.hp.onlinexam.servlet.admin.StudentDelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentModifyServlet</servlet-name>
+    <servlet-class>com.hp.onlinexam.servlet.admin.StudentModifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ScheduleQueryServlet</servlet-name>
+    <servlet-class>com.hp.onlinexam.servlet.admin.ScheduleQueryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TeaCourServlet</servlet-name>
+    <servlet-class>com.hp.onlinexam.servlet.admin.TeaCourServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ScheduleModifyServlet</servlet-name>
+    <servlet-class>com.hp.onlinexam.servlet.admin.ScheduleModifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ScheduleDelServlet</servlet-name>
+    <servlet-class>com.hp.onlinexam.servlet.admin.ScheduleDelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QuestionQueryServlet</servlet-name>
+    <servlet-class>com.hp.onlinexam.servlet.teacher.QuestionQueryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QuestionAddServlet</servlet-name>
+    <servlet-class>com.hp.onlinexam.servlet.teacher.QuestionAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QuestionModifyServlet</servlet-name>
+    <servlet-class>com.hp.onlinexam.servlet.teacher.QuestionModifyServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>QuestionDelServlet</servlet-name>
+    <servlet-class>com.hp.onlinexam.servlet.teacher.QuestionDelServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TestAddServlet</servlet-name>
+    <servlet-class>com.hp.onlinexam.servlet.teacher.TestAddServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TestCreateServlet</servlet-name>
+    <servlet-class>com.hp.onlinexam.servlet.teacher.TestCreateServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TestQueryServlet</servlet-name>
+    <servlet-class>com.hp.onlinexam.servlet.teacher.TestQueryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>TestDetailInfoServlet</servlet-name>
+    <servlet-class>com.hp.onlinexam.servlet.teacher.TestDetailInfoServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LogoutServlet</servlet-name>
+    <servlet-class>com.hp.onlinexam.servlet.login.LogoutServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RecentTestServlet</servlet-name>
+    <servlet-class>com.hp.onlinexam.servlet.student.RecentTestServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>StudentTestServlet</servlet-name>
+    <servlet-class>com.hp.onlinexam.servlet.student.StudentTestServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PastTestServlet</servlet-name>
+    <servlet-class>com.hp.onlinexam.servlet.student.PastTestServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PapersCompareServlet</servlet-name>
+    <servlet-class>com.hp.onlinexam.servlet.student.PapersCompareServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PaperDetailInfoServlet</servlet-name>
+    <servlet-class>com.hp.onlinexam.servlet.student.PaperDetailInfoServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>StuClassDelServelet</servlet-name>
+    <url-pattern>/servlet/StuClassDelServelet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TeacherQueryServlet</servlet-name>
+    <url-pattern>/servlet/TeacherQueryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TeacherAddServlet</servlet-name>
+    <url-pattern>/servlet/TeacherAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TeacherModifyServlet</servlet-name>
+    <url-pattern>/servlet/TeacherModifyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TeacherDelServlet</servlet-name>
+    <url-pattern>/servlet/TeacherDelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CourseQueryServlet</servlet-name>
+    <url-pattern>/servlet/CourseQueryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CourseAddServlet</servlet-name>
+    <url-pattern>/servlet/CourseAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CourseModifyServlet</servlet-name>
+    <url-pattern>/servlet/CourseModifyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CourseDelServlet</servlet-name>
+    <url-pattern>/servlet/CourseDelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentQueryServlet</servlet-name>
+    <url-pattern>/servlet/StudentQueryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentAddServlet</servlet-name>
+    <url-pattern>/servlet/StudentAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentDelServlet</servlet-name>
+    <url-pattern>/servlet/StudentDelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentModifyServlet</servlet-name>
+    <url-pattern>/servlet/StudentModifyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ScheduleQueryServlet</servlet-name>
+    <url-pattern>/servlet/ScheduleQueryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TeaCourServlet</servlet-name>
+    <url-pattern>/servlet/TeaCourServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ScheduleModifyServlet</servlet-name>
+    <url-pattern>/servlet/ScheduleModifyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ScheduleDelServlet</servlet-name>
+    <url-pattern>/servlet/ScheduleDelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QuestionQueryServlet</servlet-name>
+    <url-pattern>/servlet/QuestionQueryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QuestionAddServlet</servlet-name>
+    <url-pattern>/servlet/QuestionAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QuestionModifyServlet</servlet-name>
+    <url-pattern>/servlet/QuestionModifyServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>QuestionDelServlet</servlet-name>
+    <url-pattern>/servlet/QuestionDelServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TestAddServlet</servlet-name>
+    <url-pattern>/servlet/TestAddServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TestCreateServlet</servlet-name>
+    <url-pattern>/servlet/TestCreateServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TestQueryServlet</servlet-name>
+    <url-pattern>/servlet/TestQueryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>TestDetailInfoServlet</servlet-name>
+    <url-pattern>/servlet/TestDetailInfoServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutServlet</servlet-name>
+    <url-pattern>/servlet/LogoutServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RecentTestServlet</servlet-name>
+    <url-pattern>/servlet/RecentTestServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>StudentTestServlet</servlet-name>
+    <url-pattern>/servlet/StudentTestServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PastTestServlet</servlet-name>
+    <url-pattern>/servlet/PastTestServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PapersCompareServlet</servlet-name>
+    <url-pattern>/servlet/PapersCompareServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PaperDetailInfoServlet</servlet-name>
+    <url-pattern>/servlet/PaperDetailInfoServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+  	<welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+</web-app>
